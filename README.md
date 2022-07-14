@@ -4,21 +4,21 @@ Description: In this project we create database to handle unstructured data for 
 
 • List of all the dependencies:
 
- 1.In this project first we install Django for backend
+ 1. In this project first we install Django for backend
 
 		pip install Django
 	
-2.Setup MONGODB database install MONGODB Compass GUI
+2. Setup MONGODB database install MONGODB Compass GUI
 
-3.For connection between Django and MONGODB we uses PyMongo. PyMongo is very efficient for writing JSON data to MongoDB and allows the use of MongoDB queries 	in the Python code itself. We can retrieve data in a dictionary like syntax using PyMongo.
+3. For connection between Django and MONGODB we uses PyMongo. PyMongo is very efficient for writing JSON data to MongoDB and allows the use of MongoDB queries 	in the Python code itself. We can retrieve data in a dictionary like syntax using PyMongo.
 
 		pip install pymongo[snappy,gssapi,srv,tls]
 
-4.Also, install dnspython for using mongodb+srv://:
+4. Also, install dnspython for using mongodb+srv://:
 
   		pip install dnspython
 		
-5.Install Djongo to connect MONGODB with Django:
+5. Install Djongo to connect MONGODB with Django:
 		
 		pip install djongo
 		
@@ -36,7 +36,7 @@ In this 'ENFORCE_SCHEMA': False this line remove migration requirement in Django
 
 Also Locally install Monogodb in our system and create database and database collection and name of the database should be same as name present in setting.py DATABASES code.
 
-6.To install all dependencies in project
+6. To install all dependencies in project
 
 		pip install requirements.txt
 
